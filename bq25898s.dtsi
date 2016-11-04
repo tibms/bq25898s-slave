@@ -1,0 +1,9 @@
+        bq25898s@6B{
+            compatible = "ti,bq25898s";
+            reg = <0x6B>;
+            ti,bq2589x,charge-voltage = <4200>;
+            ti,bq2589x,charge-current = <2250>;
+            ti,bq2589x,term-current = <512>;
+			ti,bq2589x,input-current-limit = <2000>;
+			ti,bq2589x,input-voltage-limit = <4600>;
+        };
